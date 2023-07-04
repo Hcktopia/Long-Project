@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Astronomy Picture of the Start Date</title>
+        <link rel="stylesheet" href="style.css"> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    </head>
+
+    <body> 
+        <div class="Logo"><img src="https://cdn.freebiesupply.com/logos/thumbs/2x/nasa-2-logo.png"
+        alt="Logo" style="height: 80px; width: 100px;"></div> 
+
+        <header>
+            <div class="Outlook">
+                Image of Our Fascinating Universe Is Featured, Along with A Brief Explanation Written By A
+                Professional Astronomer.
+            </div>
+            <div>
+                <label for="start-date-input">Start Date:</label>
+                <input type="text" id="start-date-input" placeholder="YYYY-MM-DD">
+                    <br>
+                <label for="end-date-input">End Date:</label>
+                <input type="text" id="end-date-input" placeholder="YYYY-MM-DD">
+                    <br>
+                <button id="get-picture-button">Get Picture</button>
+            </div>
+        </header>
+
+        <div class="content-section"></div>
+        <br>
+        <div id="apod-container"></div>
+        <br>
+        <div id="Expalnation"></div>
+    
+        <footer>
+            <div class="author">
+                Author: Robert Nemiroff (MTU)
+            </div>
+            <div class="photographer">
+                Editor: Jerry Bonnell (UMCP)
+            </div>
+        </footer>
+        <script src="app.js"></script>
+    </body>
+</html>

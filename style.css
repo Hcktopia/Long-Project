@@ -1,0 +1,55 @@
+body {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  color: #000000;
+  text-shadow: 2px 2px 4px rgba(31, 119, 244, 0.5);
+  margin: 0;
+  padding: 0;
+  background-image: url("https://img.freepik.com/free-photo/blue-brushstrokes-background_125540-809.jpg?w=2000");
+  background-size: 100%;
+}
+
+header {
+  padding: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;        
+  max-width: 800px;
+  margin: auto;
+  padding: 60px;
+}
+
+/* align only works when it has justify content and flex direction */
+#apod-container {
+  justify-content: space-between;
+  align-items: center; 
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 60px;
+  margin-top: 20px;
+} 
+
+.apod-video {
+  margin-bottom: 60px;
+}
+
+.apod-image {
+  margin-bottom: 60px;
+}
+
+#explanation {
+  padding: 10px 20px;
+  justify-content: space-between;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  margin-bottom: 90px;
+}
+
+footer {
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
